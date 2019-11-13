@@ -1,0 +1,286 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "TC01 - Search author of books",
+        "description": "",
+        "id": "book-search;tc01---search-author-of-books",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78493985,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "check before preforming with value \u00273\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 36
+                }
+              ],
+              "location": "BookSearchSteps.checkBeforePreformingWithValue(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 766060,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a book with the title \u0027One good book\u0027, written by \u0027Anonymous\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "One good book",
+                  "offset": 23
+                },
+                {
+                  "val": "Anonymous",
+                  "offset": 51
+                }
+              ],
+              "location": "BookSearchSteps.a_book_with_the_title_One_good_book_written_by_Anonymous(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111515,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the customer searches for books titled \u0027One good book\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "One good book",
+                  "offset": 40
+                }
+              ],
+              "location": "BookSearchSteps.the_customer_searches_for_books_titled_One_good_book(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 447999,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cAnonymous[ 1]\u003e but was:\u003cAnonymous[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat book.BookSearchSteps.book_should_have_been_found_with_author_Anonymous(BookSearchSteps.java:38)\r\n\tat ✽.Then book should have been found with author \u0027Anonymous 1\u0027(search_book.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "book should have been found with author \u0027Anonymous 1\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anonymous 1",
+                  "offset": 41
+                }
+              ],
+              "location": "BookSearchSteps.book_should_have_been_found_with_author_Anonymous(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "book should have been found with author \u0027Anonymous\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Anonymous",
+                  "offset": 41
+                }
+              ],
+              "location": "BookSearchSteps.book_should_have_been_found_with_author_Anonymous(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "TC02 - Search author of books",
+        "description": "",
+        "id": "book-search;tc02---search-author-of-books",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1221332,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat book.BookSearchSteps.checkBeforePreformingWithValue(BookSearchSteps.java:47)\r\n\tat ✽.Given check before preforming with value \u00272\u0027(search_book.feature:11)\r\n",
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "check before preforming with value \u00272\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 36
+                }
+              ],
+              "location": "BookSearchSteps.checkBeforePreformingWithValue(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "pending"
+            },
+            "line": 12,
+            "name": "a book with the title \u0027One bad book\u0027, written by \u0027No Name\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "One bad book",
+                  "offset": 23
+                },
+                {
+                  "val": "No Name",
+                  "offset": 50
+                }
+              ],
+              "location": "BookSearchSteps.a_book_with_the_title_One_good_book_written_by_Anonymous(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the customer searches for books titled \u0027One bad book\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "One bad book",
+                  "offset": 40
+                }
+              ],
+              "location": "BookSearchSteps.the_customer_searches_for_books_titled_One_good_book(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "book should have been found with author \u0027No Name\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No Name",
+                  "offset": 41
+                }
+              ],
+              "location": "BookSearchSteps.book_should_have_been_found_with_author_Anonymous(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "TC03 - Search author of books",
+        "description": "",
+        "id": "book-search;tc03---search-author-of-books",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 110061,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "check before preforming with value \u00273\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 36
+                }
+              ],
+              "location": "BookSearchSteps.checkBeforePreformingWithValue(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111030,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a book with the title \u0027One normal book\u0027, written by \u0027Joh\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "One normal book",
+                  "offset": 23
+                },
+                {
+                  "val": "Joh",
+                  "offset": 53
+                }
+              ],
+              "location": "BookSearchSteps.a_book_with_the_title_One_good_book_written_by_Anonymous(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110546,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the customer searches for books titled \u0027One normal book\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "One normal book",
+                  "offset": 40
+                }
+              ],
+              "location": "BookSearchSteps.the_customer_searches_for_books_titled_One_good_book(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73697,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "book should have been found with author \u0027Joh\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Joh",
+                  "offset": 41
+                }
+              ],
+              "location": "BookSearchSteps.book_should_have_been_found_with_author_Anonymous(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Book search",
+    "description": "To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.",
+    "id": "book-search",
+    "keyword": "Feature",
+    "uri": "search_book.feature"
+  }
+]
