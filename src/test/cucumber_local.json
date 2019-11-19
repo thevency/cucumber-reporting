@@ -12,15 +12,16 @@
         "steps": [
           {
             "result": {
-              "duration": 78493985,
-              "status": "passed"
+              "duration": 77636251,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat book.BookSearchSteps.checkBeforePreformingWithValue(BookSearchSteps.java:51)\r\n\tat ✽.Given check before preforming with value \u00271\u0027(search_book.feature:4)\r\n",
+              "status": "pending"
             },
             "line": 4,
-            "name": "check before preforming with value \u00273\u0027",
+            "name": "check before preforming with value \u00271\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "3",
+                  "val": "1",
                   "offset": 36
                 }
               ],
@@ -30,8 +31,7 @@
           },
           {
             "result": {
-              "duration": 766060,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 5,
             "name": "a book with the title \u0027One good book\u0027, written by \u0027Anonymous\u0027",
@@ -52,8 +52,7 @@
           },
           {
             "result": {
-              "duration": 111515,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "the customer searches for books titled \u0027One good book\u0027",
@@ -70,9 +69,7 @@
           },
           {
             "result": {
-              "duration": 447999,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003cAnonymous[ 1]\u003e but was:\u003cAnonymous[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat book.BookSearchSteps.book_should_have_been_found_with_author_Anonymous(BookSearchSteps.java:38)\r\n\tat ✽.Then book should have been found with author \u0027Anonymous 1\u0027(search_book.feature:7)\r\n",
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "book should have been found with author \u0027Anonymous 1\u0027",
@@ -116,9 +113,9 @@
         "steps": [
           {
             "result": {
-              "duration": 1221332,
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat book.BookSearchSteps.checkBeforePreformingWithValue(BookSearchSteps.java:47)\r\n\tat ✽.Given check before preforming with value \u00272\u0027(search_book.feature:11)\r\n",
-              "status": "skipped"
+              "duration": 164848,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat book.BookSearchSteps.checkBeforePreformingWithValue(BookSearchSteps.java:51)\r\n\tat ✽.Given check before preforming with value \u00272\u0027(search_book.feature:11)\r\n",
+              "status": "pending"
             },
             "line": 11,
             "name": "check before preforming with value \u00272\u0027",
@@ -135,7 +132,7 @@
           },
           {
             "result": {
-              "status": "pending"
+              "status": "skipped"
             },
             "line": 12,
             "name": "a book with the title \u0027One bad book\u0027, written by \u0027No Name\u0027",
@@ -200,7 +197,7 @@
         "steps": [
           {
             "result": {
-              "duration": 110061,
+              "duration": 102303,
               "status": "passed"
             },
             "line": 17,
@@ -218,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 111030,
+              "duration": 1536968,
               "status": "passed"
             },
             "line": 18,
@@ -240,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 110546,
+              "duration": 66909,
               "status": "passed"
             },
             "line": 19,
@@ -258,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 73697,
+              "duration": 58182,
               "status": "passed"
             },
             "line": 20,

@@ -4,16 +4,19 @@ $(document).ready(function() {
         datasets: [{
             data: [
                 $report_summary.getPassedScenarios(),
-                $report_summary.getFailedScenarios()
+                $report_summary.getFailedScenarios(),
+				$report_summary.getSkippedScenarios()
             ],
             backgroundColor: [
                 "#00B000",
-                "#FF3030"
+                "#FF3030",
+				"#FF3031"
             ]
         }],
         labels: [
             "Passed",
-            "Failed"
+            "Failed",
+			"Skipped"
         ]
     };
 

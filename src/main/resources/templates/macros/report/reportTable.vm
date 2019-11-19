@@ -19,7 +19,6 @@
 
           <td #if ($reportable.getPassedScenarios() != 0) class="passed"    #end>$reportable.getPassedScenarios()</td>
           <td #if ($reportable.getFailedScenarios() != 0) class="failed"    #end>$reportable.getFailedScenarios()</td>
-		  <td #if ($reportable.getSkippedScenarios() != 0) class="skipped"    #end>$reportable.getSkippedScenarios()</td>
           <td class="total">$reportable.getScenarios()</td>
 
           <td class="duration" data-value="$reportable.getDuration()">$reportable.getFormattedDuration()</td>

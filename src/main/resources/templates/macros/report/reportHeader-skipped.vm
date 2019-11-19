@@ -24,6 +24,7 @@
 
     <th class="passed">Passed</th>
     <th class="failed">Failed</th>
+	<th class="skipped">Skipped</th>
     <th class="total">Total</th>
 
     <th>Duration</th>

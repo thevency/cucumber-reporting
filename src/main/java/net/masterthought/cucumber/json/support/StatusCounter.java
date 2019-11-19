@@ -56,10 +56,10 @@ public class StatusCounter {
         size++;
         if (finalStatus == Status.PASSED && status != Status.PASSED) {
             if(status==Status.PENDING){
-                finalStatus = Status.SKIPPED;
+                finalStatus = Status.PASSED;
 
             }else if(status==Status.SKIPPED){
-                finalStatus = Status.SKIPPED;
+                finalStatus = Status.PASSED;
             }
             else {
                 finalStatus = Status.FAILED;
